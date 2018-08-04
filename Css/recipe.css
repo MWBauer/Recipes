@@ -1,0 +1,20 @@
+body {background-color: red;}
+button {
+    border: none;
+    background-color: darkgrey;
+    border-radius: 4px;
+    color: grey;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    width: 150px;
+    box-shadow: 0 4px #999;
+}
+button:hover {background-color: #3e8e41}
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px #666;
+    transform: translatey(4px);
+}
+
+h1 {text-align: center;}
